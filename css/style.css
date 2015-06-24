@@ -1657,68 +1657,6 @@ html {
     margin-left: 0%;
   }
 }
-.tab-navigation ul {
-  padding: 0;
-  margin: 0;
-  list-style-type: none;
-}
-.tab-navigation ul:after {
-  content: '';
-  clear: both;
-  display: table;
-  width: 100%;
-}
-.tab-navigation li {
-  float: left;
-  border: 1px solid #0d3349;
-  border-bottom: 0;
-  background-color: #13628b;
-  color: #d9d9d9;
-  display: block;
-  padding: 10px 30px 5px;
-  text-decoration: none;
-  cursor: pointer;
-  position: relative;
-  box-sizing: border-box;
-}
-.tab-navigation li + li {
-  margin-left: 8px;
-}
-@media (max-width: 991px) {
-  .tab-navigation li + li {
-    margin-left: 0;
-  }
-}
-@media (max-width: 991px) {
-  .tab-navigation li {
-    float: none;
-    display: block;
-    width: 100%;
-  }
-}
-.tab-navigation li.current {
-  background-color: #0d3349;
-  color: #ffffff;
-  z-index: 15;
-}
-.tabs-container {
-  border: 1px solid #0d3349;
-  overflow: hidden;
-  position: relative;
-  transition: all 200ms ease;
-}
-.tab {
-  display: block;
-  top: 0;
-  padding: 20px;
-  width: 100%;
-  box-sizing: border-box;
-  position: absolute;
-  visibility: hidden;
-}
-.tab.current {
-  visibility: visible;
-}
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license - http://opensource.org/licenses/MIT
@@ -4580,4 +4518,74 @@ Copyright (c) 2015 Daniel Eden
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp;
 }
+/*
+  detcora tabs css
+  -----------------------------------------------------------------------
+*/
+.tab-navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+.tab-navigation ul:after {
+  content: '';
+  clear: both;
+  display: table;
+  width: 100%;
+}
+.tab-navigation li {
+  float: left;
+  border: 1px solid #0d3349;
+  border-bottom: 0;
+  background-color: #13628b;
+  color: #d9d9d9;
+  display: block;
+  padding: 10px 30px 5px;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  box-sizing: border-box;
+}
+.tab-navigation li + li {
+  margin-left: 8px;
+}
+@media (max-width: 991px) {
+  .tab-navigation li + li {
+    margin-left: 0;
+  }
+}
+@media (max-width: 991px) {
+  .tab-navigation li {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+}
+.tab-navigation li.current {
+  background-color: #0d3349;
+  color: #ffffff;
+  z-index: 15;
+}
+.tabs-container {
+  border: 1px solid #0d3349;
+  overflow: hidden;
+  position: relative;
+  transition: all 200ms ease;
+}
+.tab {
+  display: block;
+  top: 0;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  visibility: hidden;
+}
+.tab.current {
+  visibility: visible;
+}
+/*
+  detcora tabs css end
+  -----------------------------------------------------------------------
+*/
 /*# sourceMappingURL=style.css.map */
